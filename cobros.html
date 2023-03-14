@@ -13,98 +13,76 @@
 
 </head>
 <body>
-    <center>
-        <div>
-            <nav class="navbar navbar-light bg-light">
-                <a class="navbar-brand" href="http://topmotors.mx/">
-                  <img src="\flotilla\image\ini.jpeg" width="60" height="60" class="d-inline-block align-top" alt="">
-                  Top Motors
+    
+
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">Menu</span>
                 </a>
-              </nav>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link align-middle px-0">
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Inicio</span>
+                        </a>
+                    </li>
+                    <li>
+                    <li class="nav-item">
+                      <a href="clientes.html" class="nav-link align-middle px-0">
+                          <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Clientes</span>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="cobros.html" class="nav-link align-middle px-0">
+                        <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Cobros</span>
+                    </a>
+                </li>
+                <hr>
+                <div class="dropdown pb-4">
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="\flotilla\image\ini.jpeg" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                        <span class="d-none d-sm-inline mx-1">Menú</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                        
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="index.html">Salir</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </center>
-
-
-    <!--Main Navigation-->
-<header>
-    <!-- Sidebar -->
-    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
-      <div class="position-sticky">
-        <div class="list-group list-group-flush mx-3 mt-4">
-            <a href="\flotilla\index.html" class="list-group-item list-group-item-action py-2 ripple">
-              <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>Menú</span>
-            </a>
-            <a href="\flotilla\clientes.html" class="list-group-item list-group-item-action py-2 ripple active">
-              <i class="fas fa-chart-area fa-fw me-3"></i><span>Registro de Clientes</span>
-            </a>
-            <a href="\flotilla\cobros.html" class="list-group-item list-group-item-action py-2 ripple"
-              ><i class="fas fa-lock fa-fw me-3"></i><span>Cobros</span></a>
-            
-          </div>
-      </div>
-    </nav>
-    <!-- Sidebar -->
-  
-    <!-- Navbar -->
-    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-      <!-- Container wrapper -->
-      <div class="container-fluid">
-        <!-- Toggle button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-mdb-toggle="collapse"
-          data-mdb-target="#sidebarMenu"
-          aria-controls="sidebarMenu"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-  
-        <!-- Brand -->
-        <a class="navbar-brand"  href="http://topmotors.mx/">
-          <img
-            src="\flotilla\image\ini.jpeg"
-            height="60"
-            alt="MDB Logo"
-            loading="lazy"
-          />
-        </a>
-        <!-- Search form -->
+        <div class="col py-3">
+          <center>
         
-  
-        <!-- Right links -->
-        
-      </div>
-      <!-- Container wrapper -->
-    </nav>
-    <!-- Navbar -->
-  </header>
-  <!--Main Navigation-->
-  
-  <!--Main layout-->
-  <main style="margin-top: 58px;">
-    <center>
-        
-        <div class="container pt-4" style="position: relative;">Control de Flotilla <H2>TOP MOTOR'S</H2></div>
-        
-
-    </center>
-
-
-    <div class="container">
-        <div  id="global">
-            <table class="table table-border">
-                <tr>
-                    <td>Codigo</td>
-                    <td>Nombre</td>
-                    <td>Cobrar/Editar</td>
-                </tr>
-            </table>
+            <div class="container pt-4" style="position: relative;">Seguimiento a cobros <H2>TOP MOTOR'S</H2></div>
+              <div class="container-xl">
+                  <table class="table table-bordered table-primary" >
+                    <tr>
+                      <td>Nombre</td>
+                      <td>Apellido</td>
+                      <td>Monto de Credito</td>
+                      <td>Pago</td>
+                    </tr>
+                    <tr>
+                      <td>Oliver</td>
+                      <td>Romero</td>
+                      <td>$15,000</td>
+                      <td>
+                        <div class="row mb-3"><div class="col"><button type="button" class=" btn btn-warning">Nuevo Credito</button></div><div class="col"><button type="button" class=" btn btn-success">Liquidar</button></div></div>
+                      </td>
+                    </tr>
+                  </table>
+              </div>
+              
+            </div>
+    
+        </center>
         </div>
     </div>
-  </main>
+</div>
   
 </body>
 </html>
