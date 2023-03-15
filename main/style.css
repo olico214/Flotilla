@@ -44,3 +44,38 @@
         overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
       }
 
+
+      .centro{
+        border: 2px solid;
+        background-color: #99ddff9f;
+        width: 320px;
+        height: 320px;
+        z-index: 1;
+      }
+
+      .contenedor{
+        position: relative;
+      display: inline-block;
+      text-align: center;
+      }
+
+      .centrado{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+      .ms-1{
+        color: #fbfbfb;
+      }
+
+      .img {
+        opacity: 0.2;
+        width: 320px;
+        height: 320px;
+        
+    }
+
+    
