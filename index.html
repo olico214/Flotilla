@@ -5,24 +5,31 @@
     <title>Login</title>
     <style>
       body {
-        background-image: "\flotilla\main\image\backlogin.jpg";
+        background-image: url('https://i.pinimg.com/originals/d9/a5/3b/d9a53b9124b937bd7cd40b19fd3187cf.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         text-align: center;
       }
       img {
         display: block;
         margin: auto;
-        max-width: 80%;
+        max-width: 50%;
         height: auto;
         margin-top: 50px;
       }
+      
       form {
         margin: auto;
         width: 50%;
         max-width: 400px;
-        background-color: #f1f2f6;
+        background-image: url('https://i.imgur.com/3PihuCM.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
         border-radius: 10px;
         padding: 30px;
         margin-top: 50px;
+        
+ 
       }
       input[type="text"],
       input[type="password"] {
@@ -44,16 +51,33 @@
       button:hover {
         background-color: #74b9ff;
       }
+      label{
+        color: aliceblue;
+        font-weight: bold;
+      }
+      
     </style>
+  <script>
+    function validate(){
+      let usr = document.getElementById("username").value;
+      let psw = document.getElementById("password").value;  
+
+      if(usr == null || psw == null){
+        alert("Capture todos los campos")
+        return
+      }
+      alert("Validando información")
+        return
+    }
+  </script>
   </head>
   <body>
-    <img src="https://via.placeholder.com/500x150?text=Logo" alt="Logo">
     <form>
       <label for="username">Nombre de usuario:</label>
       <input type="text" id="username" name="username" required>
       <label for="password">Contraseña:</label>
       <input type="password" id="password" name="password" required>
-      <button type="submit">Iniciar Sesión</button>
+      <button type="submit" onclick="validate()">Iniciar Sesión</button>
     </form>
   </body>
 </html>
