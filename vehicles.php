@@ -18,7 +18,7 @@
     <!-- place navbar here -->
     <?php include('head.html') ?>
   </header>
-  <main>
+  <main style="padding-left: 12%; ">
 Este menu es de vehiculos
   </main>
   <footer>
