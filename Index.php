@@ -15,12 +15,12 @@
 
 
        
-      <div style="container-fluid">
+
 					<h1 >Administracion / Pagos</h1>
 					<main>
 						<div class="container-fluid">
 							<div class="table-responsive">
-								<table class="table table-hover table-light">
+								<table class="table table-striped table-light">
 										<thead>
 											<tr>
 												<th>Chofer</th>
@@ -128,7 +128,7 @@
 							</div>
 						</div>
 					</main>
-				</div>
+
 
 
 

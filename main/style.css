@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #333;
+    background-color: #7db4b5;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -19,57 +19,8 @@
     background-color: #ddd;
     color: black;
 }
-
-
-		/* Estilos para la tabla de datos */
-		table {
-			border-collapse: collapse;
-			width: 100%;
-			margin-top: 50px;
-		}
-
-		th, td {
-			text-align: left;
-			padding: 8px;
-			border-bottom: 1px solid #ddd;
-		}
-
-		th {
-			background-color: #f2f2f2;
-		}
-
-		/* Estilos para la columna de documentos */
-		.documents {
-			text-align: center;
-			font-weight: bold;
-		}
-
-		/* Estilos para el botón de detalles */
-		.details-button {
-			display: block;
-			background-color: blue;
-			color: white;
-			border: none;
-			padding: 8px;
-			text-align: center;
-			text-decoration: none;
-			font-size: 14px;
-			margin: 2px;
-			cursor: pointer;
-			border-radius: 4px;
-		}
-
-		.details-button:hover {
-			background-color: #4CAF50;
-		}
-
-		/* Estilos para la columna de abonado */
-		.abonado {
-			font-weight: bold;
-		}
-
-		/* Estilos para la columna de restante de pago */
-		.restante {
-			font-weight: bold;
-			color: rgb(245, 167, 167);
-		}
+body{
+    background-color: #e0eff1;
+	font-weight: bold;
+    
+}
