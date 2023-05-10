@@ -1,33 +1,100 @@
-<!-- Modal de confirmación -->
+<!-- Modal de vehiculos -->
 
-<div class="modal fade" id="confirmpres" tabindex="-1" aria-labelledby="confirmpresLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="confirmpresLabel">Nuevo Registro</h5>
-          
+<div class="modal fade" id="modal_vehiculos" tabindex="-1" aria-labelledby="confirmpresLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmpresLabel">Alta de Vehiculos</h5>
+        
+      </div>
+      <div class="modal-body">
+        <div class="row mb-2">
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="Marca" id="name" name="name">
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="Modelo" id="name" name="name">
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="Año" id="name" name="name">
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="Placas" id="name" name="name">
+            </div>
         </div>
-        <div class="modal-body">
-          <div class="row mb-2">
-              <div class="col-3">
-                  <input type="text" class="form-control" placeholder="Marca" id="name" name="name">
-              </div>
-              <div class="col-3">
-                  <input type="text" class="form-control" placeholder="Marca" id="name" name="name">
-              </div>
-              <div class="col-3">
-                  <input type="text" class="form-control" placeholder="Marca" id="name" name="name">
-              </div>
-              <div class="col-3">
-                  <input type="text" class="form-control" placeholder="Marca" id="name" name="name">
-              </div>
+        <div class="row mb-2">
+          <div class="col-3">
+              <input type="text" class="form-control" placeholder="VIN" id="name" name="name">
           </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="save()">Confirmar</button>
-        </div>
+          <div class="col-3">
+              <input type="text" class="form-control" placeholder="Poliza de seguro de Vehiculo" id="name" name="name">
+          </div>
+          <div class="col-3">
+              <input type="text" class="form-control" placeholder="Aseguradora" id="name" name="name">
+          </div>
+          <div class="col-3">
+              <input type="text" class="form-control" placeholder="Fecha de Seguro" id="name" name="name">
+          </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="save()">Confirmar</button>
       </div>
     </div>
   </div>
-  
+</div>
+
+
+
+
+
+
+<!-- Modal de choferes -->
+
+<div class="modal fade" id="modal_Choferes" tabindex="-1" aria-labelledby="confirmpresLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmpresLabel">Alta de Vehiculos</h5>
+        
+      </div>
+      <div class="modal-body">
+        <div class="row mb-2">
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="Nombre" id="name" name="name">
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="Fecha nacimiento" id="name" name="name">
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="Genero" id="name" name="name">
+            </div>
+            <div class="col-3">
+                <input type="text" class="form-control" placeholder="Direccion" id="name" name="name">
+            </div>
+        </div>
+        <div class="row mb-2">
+          <div class="col-3">
+              <input type="text" class="form-control" placeholder="Telefono" id="name" name="name">
+          </div>
+          <div class="col-3">
+              <input type="text" class="form-control" placeholder="Telefono Alterno" id="name" name="name">
+          </div>
+          <div class="col-3">
+              <input type="text" class="form-control" placeholder="Email" id="name" name="name">
+          </div>
+          <div class="col-3">
+              <input type="text" class="form-control" placeholder="# Identificación" id="name" name="name">
+          </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="save()">Confirmar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+

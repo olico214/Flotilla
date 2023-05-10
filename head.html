@@ -8,14 +8,39 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
 
+
+
 </head>
 <body>
-    <div class="navbar">
-        <a href="index.php">Inicio</a>
-        <a href="vehicles.php">Vehículos</a>
-        <a href="driver.php">Choferes</a>
-        <a href="#" class="logout">Salir</a>
+    <nav class="navbar navbar-default top-navbar" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    
+                </button>
+                <a class="navbar-brand" href="index.php"><i class="fa fa-gear"></i> <strong>Flotilla</strong></a>
+            </div>
+        </nav>
+        <nav class="navbar-default navbar-side" role="navigation">
+    <div id="sideNav" href=""><i class="fa fa-caret-right"></i></div>
+    <div class="sidebar-collapse">
+        <ul class="nav" id="main-menu">
+            <li>
+                <a class="active-menu" href="index.php">Inicio</a>
+            </li>
+        </ul>
+        
+        <ul class="nav" id="main-menu">
+            <li>
+                <a href="vehicles.php">Vehiculos</a>
+            </li>
+        </ul>
+        <ul class="nav" id="main-menu">
+            <li>
+                <a href="driver.php">Choferes</a>
+            </li>
+        </ul>
     </div>
+</nav>
 
 </body>
 </html>

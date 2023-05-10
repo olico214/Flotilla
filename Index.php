@@ -11,16 +11,16 @@
 <body>
 
  <?php include('head.html') ?>
-  <!-- Contenedor principal -->
-
-
-       
-
-					<h1 >Administracion / Pagos</h1>
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                </div>
+                
+            	
 					<main>
 						<div class="container-fluid">
-							<div class="table-responsive">
-								<table class="table table-striped table-light">
+            			<div class="table-responsive">
+            				<table class="table table-striped table-light">
 										<thead>
 											<tr>
 												<th>Chofer</th>
@@ -125,11 +125,12 @@
                 </tr>
 										</tbody>
 								</table>
-							</div>
 						</div>
 					</main>
-
-
+                </div>
+              </div>
+            </div>
+        </div>
 
 
 	<!-- Scripts de Bootstrap -->

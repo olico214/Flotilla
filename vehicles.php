@@ -18,43 +18,52 @@
 
 
        
-  <div class="row mb-1">
-    <div class="col-4">
-        <h1>Administracion / Vehiculos</h1>
-    </div>    
-    <div class="col-1 text-end">
-        <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#confirmpres">Nuevo Vehiculo</button>
-    </div>    
-    <div class="col-7">
-        
-    </div>    
+  
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                </div>
+                
+            	<main>
+            	    <div class="row mb-1">
+                        <div class="col-4">
+                            <h1>Administracion / Vehiculos</h1>
+                        </div>    
+                        <div class="col-1 text-end">
+                            <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#modal_vehiculos">Nuevo Vehiculo</button>
+                        </div>    
+                        <div class="col-7">
+                            
+                        </div>    
+                    </div>
+            		<div class="container-fluid">
+            			<div class="table-responsive">
+            				<table class="table table-striped table-light">
+            						<thead>
+            							<tr>
+            							    <th>ID</th>
+            								<th>Marca</th>
+            								<th>Modelo</th>
+            								<th>Año</th>
+            								<th>Numero de Placas</th>
+            								<th>Número de identificación del vehículo (VIN)</th>
+            								<th>Póliza de seguro del vehículo</th>
+            								<th>Aseguradora</th>
+            								<th>Fecha de vencimiento del seguro</th>
+            								<th></th>
+            								
+            							</tr>
+            						</thead>
+            						
+            				
+            				</table>
+            			</div>
+            		</div>
+            	</main>
+
+        </div>
+    </div>
 </div>
-	<main>
-		<div class="container-fluid">
-			<div class="table-responsive">
-				<table class="table table-striped table-light">
-						<thead>
-							<tr>
-								<th>Marca</th>
-								<th>Modelo</th>
-								<th>Año</th>
-								<th>Numero de Placas</th>
-								<th>Número de identificación del vehículo (VIN)</th>
-								<th>Póliza de seguro del vehículo</th>
-								<th>Aseguradora</th>
-								<th>Fecha de vencimiento del seguro</th>
-								<th></th>
-								
-							</tr>
-						</thead>
-						
-				
-				</table>
-			</div>
-		</div>
-	</main>
-
-
 
 
 	<!-- Scripts de Bootstrap -->
