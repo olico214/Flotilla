@@ -6,11 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="main/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	
 	
 </head>
 <body>
-
+<?php include('modales.html') ?>
  <?php include('head.html') ?>
+
   <!-- Contenedor principal -->
 
 
@@ -20,7 +23,7 @@
         <h1>Administracion / Vehiculos</h1>
     </div>    
     <div class="col-1 text-end">
-        <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#register_vehicles">Nuevo Vehiculo</button>
+        <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#confirmpres">Nuevo Vehiculo</button>
     </div>    
     <div class="col-7">
         
@@ -57,6 +60,6 @@
 	<!-- Scripts de Bootstrap -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

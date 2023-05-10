@@ -1,22 +1,33 @@
+<!-- Modal de confirmación -->
 
-<!-- Modal Body -->
-<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-<div class="modal fade" id="register_vehicles" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modalTitleId">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                Body
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save</button>
-            </div>
+<div class="modal fade" id="confirmpres" tabindex="-1" aria-labelledby="confirmpresLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="confirmpresLabel">Nuevo Registro</h5>
+          
         </div>
+        <div class="modal-body">
+          <div class="row mb-2">
+              <div class="col-3">
+                  <input type="text" class="form-control" placeholder="Marca" id="name" name="name">
+              </div>
+              <div class="col-3">
+                  <input type="text" class="form-control" placeholder="Marca" id="name" name="name">
+              </div>
+              <div class="col-3">
+                  <input type="text" class="form-control" placeholder="Marca" id="name" name="name">
+              </div>
+              <div class="col-3">
+                  <input type="text" class="form-control" placeholder="Marca" id="name" name="name">
+              </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="save()">Confirmar</button>
+        </div>
+      </div>
     </div>
-</div>
-
-
+  </div>
+  
